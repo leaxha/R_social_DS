@@ -13,7 +13,7 @@ This module provides foundational knowledge of computer programming concepts and
 ## Module Meetings
 
 - 16 1.5 hour meetings
-    - Tuesday and Thursday from 18:00 to 19:30 [Zoom](https://tcd-ie.zoom.us/j/6159065248)
+    - Tuesday and Thursday from 18:00 to 19:30 on [Zoom](https://tcd-ie.zoom.us/j/6159065248)
 - No lecture/tutorial in Week 7 (after Session 6)
 
 | Week |Topic                                  |
