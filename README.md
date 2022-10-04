@@ -41,13 +41,9 @@ This is an introductory class and no prior experience with programming is requir
     - [**Git**](https://git-scm.com/) - version control system
     - [**GitHub**](https://github.com/) - git-based online platform for code hosting
    
-
-See syllabus for further details.
-
 ## Module Materials
 
-- Course website: [tinyurl.com/POP77001]()
-- GitHub repository: [github.com/ASDS-TCD/POP77001_Computer_Programming_2022](https://github.com/ASDS-TCD/POP77001_Computer_Programming_2022)
+- Course website and repository: [https://github.com/jeffreyziegler/R_social_DS/](https://github.com/jeffreyziegler/R_social_DS/)
 
 ## Additional Materials
 
