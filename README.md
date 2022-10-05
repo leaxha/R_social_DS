@@ -16,17 +16,17 @@ This module provides foundational knowledge of computer programming concepts and
     - Tuesday and Thursday from 18:00 to 19:30 on [Zoom](https://tcd-ie.zoom.us/j/6159065248)
 - No lecture/tutorial in Week 7 (after Session 6)
 
-| Week |Topic                                  |
+| Session (Week) |Topic                                  |
 |----:|:------------|
-|	Sessions 1 - 2   | Introduction and Computation                   |
-| Sessions 3 - 4   | R Basics                                       |
-| Sessions 5 - 6   | Control Flow                                   |
-| Reading Week     |                                                |
-| Sessions 7 - 8   | Functions                                      |
-| Sessions 9 - 10  | Debugging, Testing, Performance and Complexity |
-| Sessions 11 - 12 | Data Wrangling                                 |
-| Sessions 13 - 14 | Visualisation                                  |
-| Sessions 15 - 16 | Gathering electronic data                     |
+|	Sessions 1 - 2 (4)   | Introduction and Computation                   |
+| Sessions 3 - 4 (5)  | R Basics                                       |
+| Sessions 5 - 6 (6)  | Control Flow                                   |
+| Reading Week (7)    |                                                |
+| Sessions 7 - 8 (8)  | Functions                                      |
+| Sessions 9 - 10 (9) | Debugging, Testing, Performance and Complexity |
+| Sessions 11 - 12 (10) | Data Wrangling                                 |
+| Sessions 13 - 14 (11)| Visualisation                                  |
+| Sessions 15 - 16 (12)| Gathering electronic data                     |
 
 ## Prerequisites
 
