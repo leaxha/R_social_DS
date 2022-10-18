@@ -140,3 +140,34 @@ provinces <- c("Leinster","Ulster","Munster","Munster","Ulster","Connacht","Ulst
 table(settlements,provinces)
 # Instead, we can just get tabulate the `provinces` vector# and check the value counts for each province
 table(provinces)
+
+# Exercise 1
+# Load built-in R object 'letters' (lower-case letters of the Roman alphabet)
+letter_vec <- letters
+# Calculate its length
+length(letter_vec)
+# Generate a vector of integers that starts from 1 and has the same length as 'letters'
+letters_num <- seq(from=1, to=length(letter_vec), by=1)
+# Assign each integer corresponding lower-case letter as name use these names to subset all vowels
+names(letter_vec) <- letters_num
+# Now, repeat subsetting, but using indices not names
+vowels_int <- c(1,5,9,15,21,25)
+only_vowels <- letter_vec[(names(letter_vec) %in% vowels_int)]
+
+# Exercise 2
+# Change this to reflect the actual counts
+# First, let's store the result of tabulation for later re-use
+table_counts <- table(provinces)
+# Start from exploring the structure of this object with str()
+str(table_counts)
+# What are the 2 main parts of this object? How are they stored?
+# Extract the relevant parts from the stored object
+saved_counts <- as.integer(table_counts)
+# Save them as a named vector with provinces as names and counts as values
+names(saved_counts) <- sort(unique(provinces))
+# Use rev() function to sort the vector in a decreasing order (from largest to smallest)
+rev(saved_counts)
+# Convert the original provinces vector into a factor with the levels ordered accordingly
+provinces <- factor(provinces, levels= names(saved_counts), ordered = TRUE)
+# Re-run table(provinces)
+table(provinces)
