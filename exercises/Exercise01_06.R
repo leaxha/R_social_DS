@@ -54,7 +54,7 @@ set.seed(2022)
 vec <- sample(c("1", "0", "o"), size = 100, replace = TRUE)
 
 # Exercise 3: Vectorized operations
-# Using function `mean()` calculate the percentage of book titles in the vector 
+# Calculate the percentage of book titles in the vector 
 # below that have more than 10 characters in them (including whitespaces)
 # Tip: You can use `nchar()` function to calculate the number of characters in a vector"
 books <- c(
@@ -67,7 +67,7 @@ books <- c(
         )
 
 # Exercise 4: Attributes and factors
-# Suppose you read in a variable which represents education of survey respondents. 
+# Suppose you read in a variable which represents education of survey respondents
 # After consulting the codebook for this survey you determined that specific values that the variable takes are coded as follows:
 # `0` - No formal education
 # `1` - Primary Education
