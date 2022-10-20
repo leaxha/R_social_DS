@@ -124,16 +124,6 @@ res <-FALSE
 }
 return(res)
 }
-# Exercise 1
-set.seed(2022)
-v <- sample(1:1000,50)
-max_val <- v[1]
-for(i in v){
-  if(i > max_val){
-    max_val <- i
-    }
-  }
-max_val
 
 min_val <- v[1]
 for(i in v){
@@ -143,7 +133,11 @@ for(i in v){
 }
 min_val
 
-set.seed(2022)
-v <- sample(c(1:500,rep(NA,500)),25)
-
+min_val <- v[1]
+for(i in v[!is.na(v)]){
+  if(i < min_val){
+    min_val <- i
+  }
+}
+min_val
 
