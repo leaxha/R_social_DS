@@ -43,8 +43,8 @@ This is an introductory class and no prior experience with programming is requir
    
 ## Module Materials
 
-- [https://github.com/jeffreyziegler/R_social_DS/](Course website and repository)
-- [https://www.dropbox.com/sh/x6fk46qjcwkvra7/AADOmDAf9JGfeyLf-PaV5fFEa?dl=0](Lecture and tutorial recordings)
+- [Course website and repository](https://github.com/jeffreyziegler/R_social_DS/)
+- [Lecture and tutorial recordings](https://www.dropbox.com/sh/x6fk46qjcwkvra7/AADOmDAf9JGfeyLf-PaV5fFEa?dl=0)
 
 ## Additional Materials
 
