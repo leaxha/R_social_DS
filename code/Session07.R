@@ -139,13 +139,3 @@ print(x)
 `<-`(x, c(10, 12, 14)) # x <- c(10, 12, 14)
 `[`(x, 3) # x[3]
 `>`(x, 10) # x > 10
-
-add_five <- function(){
-  return(function(x) x + 5)
-}
-af <- add_five()
-af # 'af' is just a function, which is yet to be invoked (called)
-af(10) # Here we call a function and supply 10 as an argument
-# Due to vectorized functions in R this example is an obvious overkill (seq(10) ^ 2 would do just fine)
-# but it shows a general approach when we might need to apply a non-vectorized functions
-sapply(seq(10), function(x) x ^ 2)
