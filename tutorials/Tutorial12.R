@@ -37,8 +37,8 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 ############
 
 # Load 'kaggle_survey_2021_responses.csv' dataframe from GitHub repository to global environment
-# Do so as a local file
-# Consider country of residence reported by respondents (question Q3).
+# Do so from the url, and from the local file
+# Consider country of residence reported by respondents (question Q3)
 # Make sure you can select the column both using both it name and index
 # Calculate the percentages of top 3 countries of residence in the sample
 
