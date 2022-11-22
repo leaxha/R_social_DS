@@ -41,6 +41,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 # Consider country of residence reported by respondents (question Q3)
 # Make sure you can select the column both using both it name and index
 # Calculate the percentages of top 3 countries of residence in the sample
+# Calculate the mean time to complete by country
 
 ############
 # Exercise 2
